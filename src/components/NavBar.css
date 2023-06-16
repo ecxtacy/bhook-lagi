@@ -1,0 +1,121 @@
+.main-nav{
+    position:sticky;
+    top:0px;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30vw;
+    font-size: larger;
+    min-width: 345px;
+}
+
+.menu-link li{
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menu-link li a{
+    color:white;
+}
+
+.user-cart li a{
+    font-size: larger;
+    color:white;
+
+}
+
+.user-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:8vw;
+    margin-right: 35px;
+    min-width: 92px;
+}
+
+.logo{
+    color:white;
+}
+
+.logo-container{
+    margin-left: 30px;
+}
+
+.hamburger{
+    display:none;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 1320px){
+    .hamburger{
+        display: block;
+    }
+    .menu-link{
+        display: none;
+        z-index:100;
+    }
+    .main-nav{
+        justify-content: space-between;
+    }
+    .user-cart-container{
+       display: flex;
+    }
+
+    .menu-link-mobile{
+        position:absolute;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        left: 0;
+        top:100%;
+        width:100%;
+        background-color: black;
+        z-index: 10;
+        font-size: large;
+        height: 25vh;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .menu-link-mobile li{
+        text-align:center;
+        border-radius: 20px;
+        width: 150px;
+        padding: 5px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    };
+
+    .menu-link-mobile li a{
+        width:0px;
+    };
+
+}
+
+.menu-link-mobile li:hover{
+    opacity: 0.8;
+}
+
+.menu-link-mobile li a{
+    color:white;
+}
+.menu-link li:hover{
+    opacity: 0.8;
+}
+
+.user-cart li a:hover{
+    opacity: 0.8;
+}
