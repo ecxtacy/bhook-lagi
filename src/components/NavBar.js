@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
   const [showLinks, setShowLinks] = useState(false);
-
+  
   return (
     <>
     <nav className='main-nav'>
