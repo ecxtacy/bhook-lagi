@@ -8,7 +8,7 @@ import service from "../media/service2.png"
 
 import BgVideo from '../media/BRoll.mp4';
 import maple from '../media/maple.jpg'
-import tree from '../media/mapleleaves.jpg';
+import FooterBottom from '../Footer';
 
 
 const Home = () => {
@@ -66,7 +66,9 @@ const Home = () => {
         <div className='offers'>
           {/* Remove this after adding footer */}
         </div>
-    </div>
+      <FooterBottom/>
+      </div>
+      
     </>
   )
 }
