@@ -6,8 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #003349;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 10;
 }
 
 .menu-link{
@@ -83,7 +84,7 @@
         left: 0;
         top:100%;
         width:100%;
-        background-color: black;
+        background-color: #003349;
         z-index: 10;
         font-size: large;
         height: 25vh;
