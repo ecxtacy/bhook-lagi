@@ -9,6 +9,7 @@ import service from "../media/service2.png"
 import BgVideo from '../media/BRoll.mp4';
 import maple from '../media/maple.jpg'
 import FooterBottom from '../Footer';
+import AutoHeading from '../AutoHeading';
 
 
 const Home = () => {
@@ -18,7 +19,13 @@ const Home = () => {
 
         <div className="text-white bg-cover bg-center pt-20 sm:pt-80 pb-36">
           <video src={BgVideo} autoPlay muted loop className="video-bg"/>
-          <h1 className=' text-3xl max-w-[25rem] mx-auto sm:max-w-[60rem] font-medium sm:text-5xl text-white text-center index'>Heading</h1>
+          <h1 className=' text-3xl max-w-[25rem] mx-auto sm:max-w-[60rem] font-medium sm:text-5xl text-white text-center index'>
+            <AutoHeading
+              text={'Bhook Lagi ! One Place solution to satisfy your hunger'}
+              speed={100}
+              wait_time={750}
+            />
+          </h1>
           <p className='text-center text-lg mx-auto max-w-[30rem] sm:text-xl sm:max-w-[70rem] my-10 index'>
             subheading
           </p>
