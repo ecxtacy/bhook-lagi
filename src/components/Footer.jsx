@@ -21,7 +21,7 @@ const socials = [
 ];
 
 
-const copyright = 'copyright Bhook Lagi';
+const copyright = '  © Bhook Lagi';
 
 // will contain the links to pages
 const links = [
