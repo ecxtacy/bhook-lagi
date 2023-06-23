@@ -47,7 +47,7 @@ const links = [
   },
   {
     text: 'About Us',
-    url: '/',
+    url: '/about',
   },
   {
     text: 'Blog',
@@ -55,7 +55,7 @@ const links = [
   },
   {
     text: 'Contact Us',
-    url: '/',
+    url: '/contact',
   },
 ];
 
