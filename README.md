@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Bhook Lagi
+## _The One Place Solution to Satisfy your Hunger_
+
+This is the repository for the front-end of the food delivery website developed using Tailwind CSS, JSX, React.js.
+The website allows users to browse restaurants, view their menus, place orders, and track the delivery status. The frontend is built with HTML, CSS, and JSX using the React.js framework, while the backend is developed using Spring Boot.
+## Tech Stack
+
+Bhook-lagi uses a number of 
+
+- [ **React bootstrap JS** ] - A popular JavaScript library for building user interfaces!
+- [ **Tailwind CSS** ] -  Utility-based framework based on CSS.
+- [ **MySQL Spring Boot** ] - Spring Boot provides seamless integration MySQL, making it easier to                            develop robust and scalable Web applications.
+
+## Getting Started :
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the project directory, you can run to view our project :
 
-## Available Scripts
+```sh
+npm i
+npm start
+```
 
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -43,15 +59,26 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### Code Splitting
+Fork the repository
+Create a new branch for your feature or bug fix
+Commit your changes
+Push your changes to your forked repository
+Submit a pull request describing your changes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Our Team
+Meet our Highly- Skilled and Hardworking team who are the Brains behind this Project :
 
-### Analyzing the Bundle Size
+- Dhruv Chouhan
+- Aarav Saini
+- Ayush Anand
+- Manroop Kaur
+- Palak Agarwal
+- Ashok Kumar Roy Raaz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
 
 ### Making a Progressive Web App
 
