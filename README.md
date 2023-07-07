@@ -5,7 +5,7 @@ This is the repository for the front-end of the food delivery website developed 
 The website allows users to browse restaurants, view their menus, place orders, and track the delivery status. The frontend is built with HTML, CSS, and JSX using the React.js framework, while the backend is developed using Spring Boot.
 ## Tech Stack
 
-Bhook-lagi uses a number of 
+Our team at Bhook-lagi has used these technologies to build this application :
 
 - [ **React bootstrap JS** ] - A popular JavaScript library for building user interfaces!
 - [ **Tailwind CSS** ] -  Utility-based framework based on CSS.
